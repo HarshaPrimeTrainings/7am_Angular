@@ -1,0 +1,37 @@
+<script>
+   function add(num1,num2){
+      var res = parseInt(num1)+ parseInt(num2);
+      document.getElementById('op').innerHTML = res;
+   }
+   function sub(num1,num2){
+      var res = num1-num2;
+      document.getElementById('op').innerHTML = res;
+   }
+   function multiply(num1,num2){
+      var res = num1*num2;
+      document.getElementById('op').innerHTML = res;
+
+   }
+   function divison(num1,num2){
+      var res = num1/num2;
+      document.getElementById('op').innerHTML = res;
+   }
+</script>
+
+
+<center>
+   <h1 style="color: red;">Calculator App</h1>
+Number1: <input type="number" id="no1">
+</br>
+</br>
+Number2: <input type="number" id="no2">
+</br>
+</br>
+<input type="button" value="Add" onclick="add(no1.value,no2.value)">
+<input type="button" value="sub" onclick="sub(no1.value,no2.value)">
+<input type="button" value="Multiply" onclick="multiply(no1.value,no2.value)">
+<input type="button" value="divison" onclick="divison(no1.value,no2.value)">
+</br>
+</br>
+<div style="color: green;">Result : <span id="op"></span> </div>
+</center>
