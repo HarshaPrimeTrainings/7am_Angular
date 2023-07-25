@@ -1,0 +1,18 @@
+<script>
+function demo(){
+   var a =  document.getElementById('one').value;
+    if(a == "1"){       
+        document.getElementById('two').focus();
+    } 
+    else if(a=="2"){
+        document.getElementById('three').focus(); 
+    }
+}
+
+</script>
+
+<input type="text" id="one" onkeyup="demo()">
+
+<input type="text" id="two">
+
+<input type="text" id="three">
