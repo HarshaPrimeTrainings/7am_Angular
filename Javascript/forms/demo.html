@@ -1,0 +1,36 @@
+<script>
+   function validate(){
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('pwd').value;
+
+     if(username == "" || password == ""){
+         alert('Usernmae/Password is needed');
+         return false;
+     }
+   }
+
+   function validateinput(){
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('pwd').value;
+
+     if(username == ""){
+        document.getElementById('username').setAttribute('style','border-color:red');
+     }
+     if(password == ""){
+        document.getElementById('pwd').setAttribute('style','border-color:red');
+     }
+   }
+   
+</script>
+
+<center>
+<form method="get" action="success.html" onsubmit="return validate()">
+   Username : <input type="text" name="user" id="username" onblur="validateinput()">
+   <br>
+   <br>
+   Password : <input type="password" name="pwd" id="pwd" onblur="validateinput()">
+   <br>
+   <br>
+   <input type="submit">
+</form>
+</center>
