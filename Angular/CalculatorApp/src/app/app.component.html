@@ -1,0 +1,11 @@
+<h1>App Component </h1>
+
+Number1 : <input type="number" #no1> <br/>
+Number2 : <input type="number" #no2> <br/><br/>
+
+<input type="button" value="Addition" (click)="addition(no1.value,no2.value)"> &nbsp;
+<input type="button" value="Subtraction" (click)="subtraction(no1.value,no2.value)"> &nbsp;
+<input type="button" value="Multiply" (click)="multiply(no1.value,no2.value)"> &nbsp;
+<input type="button" value="Divison" (click)="division(no1.value,no2.value)"> 
+<br/><br/>
+Result : {{result}}
