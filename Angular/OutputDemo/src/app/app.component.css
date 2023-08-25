@@ -1,0 +1,13 @@
+.myclass{
+font-style: italic;
+}
+
+.sidenav{
+    color: grey;
+    position: absolute;
+    top:0;
+    margin-right: 50px;
+    left: 25px;
+   display: flex;
+
+}

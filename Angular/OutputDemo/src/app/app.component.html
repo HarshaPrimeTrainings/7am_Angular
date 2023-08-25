@@ -1,0 +1,7 @@
+
+<h1 >App Component - Parent Component</h1>
+<input type="text" #item (keyup)="getData(item.value)" >
+{{opdata}}
+
+<demo-comp [msg]="temp" (sendData)="recieveData($event)"> </demo-comp>
+
