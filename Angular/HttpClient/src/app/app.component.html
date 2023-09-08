@@ -1,0 +1,21 @@
+<h1>App Component </h1>
+<input type="button" value="USERS" (click)="showUsers()">
+
+
+
+<table *ngIf="users!=undefined">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>City</th>
+        <th>Company</th>
+    </tr>
+    <tr *ngFor="let item of users">
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.address.city}}</td>
+        <td>{{item.company.name}}</td>
+    </tr>
+</table>
