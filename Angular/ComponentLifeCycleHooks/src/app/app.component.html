@@ -1,0 +1,10 @@
+<h1>App Component </h1>
+
+<input type="text" #dt>
+<button (click)="getData(dt.value)">SendData</button>
+
+<demo-comp  [msg]="data">
+    <h1 #pro>Content Projection Happens Here</h1>
+</demo-comp>
+
+
