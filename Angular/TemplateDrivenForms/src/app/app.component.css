@@ -1,0 +1,12 @@
+table, th,td,tr{
+    border: solid 1px;
+}
+
+input.ng-touched.ng-invalid{
+    border: solid 1px red;
+}
+
+.validation{
+    font-size: small;
+    color: red;
+}

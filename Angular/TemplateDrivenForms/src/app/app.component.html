@@ -1,0 +1,13 @@
+<h1>App Component </h1>
+
+<form #myform="ngForm" (submit)="getData(myform)"> 
+<p *ngIf="isUsername" class="validation">username is invalid</p>
+Name : <input type="text" name="username" ngModel required> <br/>
+<p *ngIf="isUsername" class="validation">Email is invalid</p>
+Email: <input type="text" name="email" ngModel required><br/>
+Password: <input type="text" name="password" ngModel><br/>
+<input type="submit">
+</form>
+
+
+
