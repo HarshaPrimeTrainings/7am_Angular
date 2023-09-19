@@ -1,0 +1,17 @@
+<script>
+
+function callPromise(){
+    let prom = new Promise((resolve)=>{
+        resolve('Statement 1');
+        resolve('Statement 2');
+    });
+    prom.then(console.log); 
+    
+}
+
+
+
+</script>
+
+
+<input type="button" value="Click" onclick="callPromise()">
