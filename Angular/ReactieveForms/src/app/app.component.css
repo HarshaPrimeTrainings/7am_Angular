@@ -1,0 +1,9 @@
+table, th,td,tr{
+    border: solid 1px;
+}
+
+
+.validation{
+    font-size: small;
+    color: red;
+}
