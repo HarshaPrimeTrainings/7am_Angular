@@ -1,0 +1,5 @@
+<form #loginForm="ngForm" style="padding: 50px;" (submit)="loginsuccess(loginForm.value)">
+    UserName<input type="text" name="username" ngModel> <br/>
+    Password<input type="text" name="password" ngModel><br/>
+    <input type="submit">
+</form>

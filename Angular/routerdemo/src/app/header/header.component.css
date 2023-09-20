@@ -1,0 +1,22 @@
+header{
+    padding: 30px;
+    background-color: teal;
+}
+
+nav{
+    display: flex;
+    align-content: center;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+a.active{
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
