@@ -1,0 +1,9 @@
+.table{
+    margin: auto;
+    margin: 0 auto !important;
+}
+
+.table .thead-custom th{
+    background-color: rgb(5,68,104) !important;
+    color: white
+}

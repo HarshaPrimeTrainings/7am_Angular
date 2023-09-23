@@ -1,0 +1,13 @@
+.loginform{
+    width: 50%;
+    margin: auto;
+}
+
+.submit{
+    margin-top: 20px;
+    float: right;
+}
+.formtext{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}

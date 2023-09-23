@@ -1,0 +1,18 @@
+<div class="loginform">
+    <div class="alert alert-danger" role="alert" *ngIf="!islogged">
+        login Failed
+      </div>
+<form #loginForm="ngForm" (submit)="login(loginForm.value)">
+    <div class="form-group formtext">
+      <label for="username" >UserName</label>
+      <input  class="form-control" required ngModel name="username">
+    </div>
+    <div class="form-group formtext">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" required ngModel name="password">
+    </div>
+    <div class="form-group formtext">
+    <button type="submit" class="btn btn-primary submit">Submit</button>
+    </div>
+  </form>
+</div>

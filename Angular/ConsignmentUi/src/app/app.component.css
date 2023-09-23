@@ -1,0 +1,26 @@
+.logoheader{
+    background-color: rgb(5,68,104);
+    height: 114px;
+    
+}
+
+.headercontent{
+    padding-top: 10px;
+    color: white;
+    margin: auto;
+    font-size: 40px;
+    display: table;
+    font-family: Georgia;
+
+}
+
+.routeroutput{
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+.headercontent1{
+    float: right;
+    margin-right: 60px;
+}

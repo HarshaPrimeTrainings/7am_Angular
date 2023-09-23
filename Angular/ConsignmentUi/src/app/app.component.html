@@ -1,0 +1,10 @@
+<div class="logoheader">
+<span class="headercontent">Consignment Managment</span>
+<span class="headercontent1"><button class="btn btn-outline-light" (click)="logout()">Logout</button></span>
+</div>
+<div *ngIf="isLoggedIn">
+<app-sidenav></app-sidenav>
+</div>
+<div class="routeroutput">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,31 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+.wrapper .sidebar{
+    background: rgb(5,68,104);
+    position: fixed;
+    transition: all 0.5s ease;
+    width: 225px;
+    height: 100%;
+    left:0px ;
+}
+
+.wrapper .sidebar ul li a{
+   display: block;
+   padding: 15px 30px;
+   color: white;
+}
+
+
+
+.wrapper .sidebar ul li a:hover, .wrapper .sidebar ul li a:active{
+    background: white;
+    color: rgb(5,68,104);
+    
+ }
